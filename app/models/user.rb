@@ -3,6 +3,5 @@ class User < ApplicationRecord
   has_secure_token :uuid
 
   validates :email, :password, presence: true
-
-  before_create :create_uuid
+  validates :email, uniqueness: true
 end
