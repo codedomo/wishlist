@@ -41,6 +41,7 @@ group :test do
   gem "shoulda-matchers", git: "git@github.com:thoughtbot/shoulda-matchers.git"
   gem "vcr"
   gem "webmock"
+  gem "faker"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
